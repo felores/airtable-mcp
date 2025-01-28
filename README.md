@@ -1,4 +1,5 @@
 # Airtable MCP Server
+[![smithery badge](https://smithery.ai/badge/airtable-server)](https://smithery.ai/server/airtable-server)
 
 A Model Context Protocol server that provides tools for interacting with Airtable's API. This server enables programmatic management of Airtable bases, tables, fields, and records through Claude Desktop or other MCP clients.
 
@@ -28,6 +29,14 @@ This MCP server features a specialized implementation that allows it to build ta
 5. Keep this key secure - you'll need it for configuration
 
 ## Installation
+
+### Installing via Smithery
+
+To install Airtable MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/airtable-server):
+
+```bash
+npx -y @smithery/cli install airtable-server --client claude
+```
 
 ### Method 1: Using npx (Recommended)
 1. Navigate to the Claude configuration directory:
